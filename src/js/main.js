@@ -26,6 +26,6 @@ let pos = document.querySelector('.choose-income-label'),
 		checkb = document.querySelector('#savings'),
 		sum = document.querySelector('label[for="sum"]'),
 		perc = document.querySelector('label[for="percent"]'),
-		year = document.querySelector('.year'),
-		month =document.querySelector('.month'),
-		day=document.querySelector('.day');
+		year = document.querySelector('.year-value'),
+		month =document.querySelector('.month-value'),
+		day=document.querySelector('.day-value');
