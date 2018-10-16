@@ -25,7 +25,7 @@ let optional = document.querySelectorAll('.optionalexpenses-item');
 let pos = document.querySelector('.choose-income'),
 		checkb = document.querySelector('#savings'),
 		sum = document.querySelector('choose-sum'),
-		perc = document.querySelector('label[for="percent"]'),
+		perc = document.querySelector('choose-percent'),
 		year = document.querySelector('.year-value'),
 		month =document.querySelector('.month-value'),
 		day=document.querySelector('.day-value');
