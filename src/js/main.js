@@ -22,7 +22,7 @@ console.log(appOp);
 //Получить поля для ввода необязательных расходов (optionalexpenses-item) при помощи querySelectorAll
 let optional = document.querySelectorAll('.optionalexpenses-item');
 // Получить оставшиеся поля через querySelector (  сумма, процент)
-let pos = document.querySelector('.choose-income-label'),
+let pos = document.querySelector('.choose-income'),
 		checkb = document.querySelector('#savings'),
 		sum = document.querySelector('label[for="sum"]'),
 		perc = document.querySelector('label[for="percent"]'),
