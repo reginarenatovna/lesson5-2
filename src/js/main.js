@@ -24,8 +24,8 @@ let optional = document.querySelectorAll('.optionalexpenses-item');
 // Получить оставшиеся поля через querySelector (  сумма, процент)
 let pos = document.querySelector('.choose-income'),
 		checkb = document.querySelector('#savings'),
-		sum = document.querySelector('choose-sum'),
-		perc = document.querySelector('choose-percent'),
+		sum = document.querySelector('.choose-sum'),
+		perc = document.querySelector('.choose-percent'),
 		year = document.querySelector('.year-value'),
 		month =document.querySelector('.month-value'),
 		day=document.querySelector('.day-value');
